@@ -1,32 +1,56 @@
 /* Without changing anything in the html, add the following styles using advanced selectors */
-
+html {
+   text-align: center;
+}
 
 /* Give the header element a background color */
-
+.head {
+   background-color: ;
+}
 
 /* Center everything in the header and footer */
-
+header, footer {
+   text-align: center;
+}
 
 /* All text to Helvetica */
-
+body {
+   font-family: Helvetica;
+}
 
 /* All links default color is gray*/
-
+a {
+   color: gray;
+}
 
 /* All links on hover color red*/
-
+a:hover {
+   color: red;
+}
 
 /* All Links visited color black*/
-
+a:visited {
+   color: black;
+}
 
 /* Footer disclaimer text to be .5 em*/
-
+.disclaimer {
+   font-size: .5em;
+}
 
 /* Remove bullet points from header navigation links */
-
+header ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
 
 /* All Post's Comment Links Italicized, Orange and Remove the Underline */
-
+[href="#comments"] {
+   text-decoration: none;
+   color: orange;
+   font-style: italic;
+}
 
 /* All Post's Comment Links Show Underline on Hover */
 
@@ -38,7 +62,9 @@
 
 
 /* The First Letter of each Article be 2em */
-
+section p:first-of-type::first-letter {
+   font-size: 2em;
+}
 
 /* The First Image in every Article should have Rounded Corners*/
 
